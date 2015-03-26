@@ -6793,6 +6793,10 @@ Standard ATX drive power connector.</description>
 <wire x1="10.668" y1="-1.6256" x2="9.0424" y2="-3.2512" width="0.127" layer="21"/>
 <wire x1="11.6332" y1="-2.0828" x2="9.4996" y2="-4.1656" width="0.127" layer="21"/>
 </package>
+<package name="19705-4001">
+<pad name="P$1" x="-2.54" y="0" drill="1.6" shape="square"/>
+<pad name="P$2" x="2.54" y="0" drill="1.6" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIN">
@@ -6825,6 +6829,24 @@ Standard ATX drive power connector.</description>
 <connect gate="2" pin="P$1" pad="P$2"/>
 <connect gate="3" pin="P$1" pad="P$3"/>
 <connect gate="4" pin="P$1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="19705-4001">
+<description>&lt;b&gt;Molex 19705-4001&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Solder pin disconnect.</description>
+<gates>
+<gate name="G$1" symbol="PIN-VAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="19705-4001">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6885,6 +6907,16 @@ Standard ATX drive power connector.</description>
 <part name="U$2" library="con-molex-additional" deviceset="15-24-4449" device=""/>
 <part name="U$3" library="con-molex-additional" deviceset="15-24-4449" device=""/>
 <part name="U$4" library="con-molex-additional" deviceset="15-24-4449" device=""/>
+<part name="U$5" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$6" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$7" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$8" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$9" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$10" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$11" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$12" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$13" library="con-molex-additional" deviceset="19705-4001" device=""/>
+<part name="U$14" library="con-molex-additional" deviceset="19705-4001" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6980,6 +7012,16 @@ Standard ATX drive power connector.</description>
 <instance part="U$4" gate="2" x="22.86" y="119.38"/>
 <instance part="U$4" gate="3" x="22.86" y="116.84"/>
 <instance part="U$4" gate="4" x="22.86" y="114.3"/>
+<instance part="U$5" gate="G$1" x="60.96" y="152.4"/>
+<instance part="U$6" gate="G$1" x="60.96" y="149.86"/>
+<instance part="U$7" gate="G$1" x="60.96" y="144.78"/>
+<instance part="U$8" gate="G$1" x="60.96" y="142.24"/>
+<instance part="U$9" gate="G$1" x="60.96" y="137.16"/>
+<instance part="U$10" gate="G$1" x="60.96" y="134.62"/>
+<instance part="U$11" gate="G$1" x="60.96" y="129.54"/>
+<instance part="U$12" gate="G$1" x="60.96" y="127"/>
+<instance part="U$13" gate="G$1" x="60.96" y="121.92"/>
+<instance part="U$14" gate="G$1" x="60.96" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -7276,6 +7318,31 @@ Standard ATX drive power connector.</description>
 <wire x1="20.32" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
 <label x="2.54" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
+<label x="40.64" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="142.24" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
+<label x="40.64" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="134.62" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
+<label x="40.64" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<label x="40.64" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="40.64" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -7400,6 +7467,11 @@ Standard ATX drive power connector.</description>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <label x="83.82" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<label x="40.64" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PSU_-12V" class="0">
 <segment>
@@ -7419,12 +7491,22 @@ Standard ATX drive power connector.</description>
 <wire x1="83.82" y1="78.74" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 <label x="83.82" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="40.64" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="-5V_OUT" class="0">
 <segment>
 <pinref part="K4" gate="1" pin="S"/>
 <wire x1="142.24" y1="78.74" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
 <label x="142.24" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
+<label x="40.64" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PSU_-5V" class="0">
@@ -7444,6 +7526,11 @@ Standard ATX drive power connector.</description>
 <pinref part="K2" gate="1" pin="S"/>
 <wire x1="142.24" y1="22.86" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <label x="142.24" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="144.78" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
+<label x="40.64" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PSU_3V3" class="0">
@@ -7478,6 +7565,11 @@ Standard ATX drive power connector.</description>
 <pinref part="K5" gate="1" pin="S"/>
 <wire x1="200.66" y1="22.86" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
 <label x="200.66" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<label x="40.64" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PSU_12V" class="0">
