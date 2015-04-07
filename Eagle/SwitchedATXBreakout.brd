@@ -81,7 +81,7 @@
 <text x="82.55" y="64.77" size="1.778" layer="25" rot="R90" align="center-left">PWR_GOOD</text>
 <text x="85.09" y="64.77" size="1.778" layer="25" rot="R90" align="center-left">5V_SB</text>
 <text x="87.63" y="64.77" size="1.778" layer="25" rot="R90" align="center-left">GND</text>
-<text x="68.58" y="74.93" size="1.778" layer="25" rot="R180" align="center-left">Switched ATX Breakout
+<text x="74.93" y="74.93" size="1.778" layer="25" rot="R180" align="center-left">Switched ATX Breakout
 github.com/DanNixon/Iku</text>
 <hole x="46.99" y="69.85" drill="3.2"/>
 <hole x="46.99" y="7.62" drill="3.2"/>
@@ -1654,11 +1654,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="1.905" y="51.181" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="LED4" library="led" package="LED3MM" value="" x="96.52" y="5.08" smashed="yes">
-<attribute name="NAME" x="98.425" y="5.461" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="93.599" y="3.175" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="98.425" y="3.429" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LED5" library="led" package="LED3MM" value="" x="96.52" y="30.48" smashed="yes">
-<attribute name="NAME" x="98.425" y="30.861" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="93.599" y="28.575" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="98.425" y="28.829" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LED3" library="led" package="LED3MM" value="" x="3.81" y="24.13" smashed="yes" rot="R180">
