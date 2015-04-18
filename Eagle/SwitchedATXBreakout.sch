@@ -6770,7 +6770,7 @@ Source: http://www.mouser.com/ds/2/316/alf-catalog-461593.pdf</description>
 <class number="1" name="power" width="0" drill="0">
 </class>
 <class number="2" name="power-highcurrent" width="0" drill="0">
-<clearance class="2" value="1"/>
+<clearance class="2" value="0.5"/>
 </class>
 <class number="3" name="ground" width="0" drill="0">
 <clearance class="3" value="0.5"/>
@@ -7325,7 +7325,7 @@ Source: http://www.mouser.com/ds/2/316/alf-catalog-461593.pdf</description>
 <label x="2.54" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PSU_-5V" class="0">
+<net name="PSU_-5V" class="2">
 <segment>
 <wire x1="142.24" y1="68.58" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="142.24" y="60.96" size="1.778" layer="95"/>
